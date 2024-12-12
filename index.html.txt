@@ -1,0 +1,98 @@
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfólio - [Seu Nome]</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Cabeçalho (Header) -->
+    <header>
+        <div class="container">
+            <h1>[Seu Nome]</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção de Introdução -->
+    <section id="intro">
+        <div class="container">
+            <h2>Bem-vindo ao meu portfólio!</h2>
+            <p>Eu sou [Seu Nome], desenvolvedor web com experiência em [tecnologias/áreas].</p>
+        </div>
+    </section>
+
+    <!-- Seção sobre -->
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Desenvolvedor apaixonado por [descreva um pouco sobre sua trajetória, suas paixões, suas especialidades].</p>
+            <img src="sua-foto.jpg" alt="Foto do [Seu Nome]">
+        </div>
+    </section>
+
+    <!-- Seção de Projetos -->
+    <section id="projetos">
+        <div class="container">
+            <h2>Meus Projetos</h2>
+            <div class="projeto">
+                <h3>Projeto 1</h3>
+                <p>Descrição breve do projeto. Tecnologias usadas: HTML, CSS, JavaScript.</p>
+                <a href="link-do-projeto" target="_blank">Ver projeto</a>
+            </div>
+            <div class="projeto">
+                <h3>Projeto 2</h3>
+                <p>Descrição breve do projeto. Tecnologias usadas: React, Node.js.</p>
+                <a href="link-do-projeto" target="_blank">Ver projeto</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Habilidades -->
+    <section id="habilidades">
+        <div class="container">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Git/GitHub</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Você pode me contatar por e-mail ou pelas redes sociais:</p>
+            <ul>
+                <li>Email: seuemail@example.com</li>
+                <li><a href="https://www.linkedin.com/in/seu-linkedin" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/seu-github" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 [Seu Nome]. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
